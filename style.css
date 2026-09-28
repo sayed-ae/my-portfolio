@@ -169,8 +169,19 @@ body {
 .work-slider::-webkit-scrollbar { display:none; }
 .work-card { flex:0 0 320px; scroll-snap-align:start; background:rgba(255,255,255,.03); border:1px solid rgba(255,255,255,.08); border-radius:22px; overflow:hidden; transition:all .4s ease; backdrop-filter:blur(10px); }
 .work-card:hover { border-color:rgba(184,102,255,.4); box-shadow:0 0 40px rgba(184,102,255,.15); transform:translateY(-6px); }
-.work-video { width:100%; aspect-ratio:9/16; background:#0a0115; overflow:hidden; }
-.work-video iframe { width:100%; height:100%; border:0; display:block; }
+.work-video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #0a0115;
+  overflow: hidden;
+}
+
+.work-video iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
 .work-info { padding:22px 20px 26px; }
 .work-tag { display:inline-block; font-size:11px; font-weight:600; letter-spacing:1.5px; color:#b866ff; background:rgba(184,102,255,.1); border:1px solid rgba(184,102,255,.3); padding:5px 14px; border-radius:30px; margin-bottom:14px; }
 .work-info h3 { font-weight:600; font-size:18px; color:#fff; margin-bottom:14px; }
