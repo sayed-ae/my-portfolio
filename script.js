@@ -367,14 +367,3 @@ document.querySelectorAll('.why-item').forEach(item => {
 
 });
 
-const workSlider = document.querySelector('.work-slider');
-const arrowRight = document.getElementById('arrowRight');
-
-if (workSlider && arrowRight) {
-  arrowRight.addEventListener('click', () => {
-    workSlider.scrollBy({
-      left: 344,
-      behavior: 'smooth'
-    });
-  });
-}
