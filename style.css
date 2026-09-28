@@ -171,9 +171,12 @@ body {
 .work-card:hover { border-color:rgba(184,102,255,.4); box-shadow:0 0 40px rgba(184,102,255,.15); transform:translateY(-6px); }
 .work-video {
   width: 100%;
-  aspect-ratio: 16 / 9;
-  background: #0a0115;
+  aspect-ratio: 9 / 16;
+  background: #000;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .work-video iframe {
