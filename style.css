@@ -174,16 +174,18 @@ body {
   aspect-ratio: 9 / 16;
   background: #000;
   overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: relative;
 }
 
 .work-video iframe {
-  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: auto;
   height: 100%;
+  aspect-ratio: 16 / 9;
+  transform: translateX(-50%);
   border: 0;
-  display: block;
 }
 .work-info { padding:22px 20px 26px; }
 .work-tag { display:inline-block; font-size:11px; font-weight:600; letter-spacing:1.5px; color:#b866ff; background:rgba(184,102,255,.1); border:1px solid rgba(184,102,255,.3); padding:5px 14px; border-radius:30px; margin-bottom:14px; }
